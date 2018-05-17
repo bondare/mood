@@ -1,273 +1,264 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-
-
-/*
     Created on : Nov 8, 2016, 5:43:28 PM
     Author     : Ilze
 */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    text-align: center;
-    color: #fff;
-    min-width: 1140px;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  min-width: 1140px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cf:before, .cf:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 .main-width {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
+
 .main-width-header {
-    width: 1230px;
-    margin: 0 auto;
+  width: 1230px;
+  margin: 0 auto;
 }
 
 .block-title {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 60px;
-    padding-top: 80px;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  text-transform: uppercase;
 }
 
 a, a:link, a:visited {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
 }
-
 
 /* ************************************* header ***************************************  */
 
 .navigation-container {
-    background-color: rgb(211, 53, 35);
-    height: 70px;
-    text-align: right;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 100;
+  background-color: rgb(211, 53, 35);
+  height: 70px;
+  text-align: right;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .header {
-    background-image: url("pictures/bg-red.svg");
-    background-size: cover;
-    position: relative;
-    background-position: center;
+  background-image: url("pictures/bg-red.svg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
 }
 
 .logo-info {
-    height: 70px;
-    float: left;
-    padding-top: 10px;
+  height: 70px;
+  float: left;
+  padding-top: 10px;
 }
 
 .logo-text {
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
-    padding-left: 45px;
-    font-size: 14px;
-    font-weight: 300;
-    margin-left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  padding-left: 45px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 10px;
 }
 
 .navi {
-    display: inline-block;
-    text-align: center;
-    line-height: 65px;
-    padding-left: 15px;
+  display: inline-block;
+  text-align: center;
+  line-height: 65px;
+  padding-left: 15px;
 }
 
 .main-nav .navi {
-    padding: 0 10px;
-    border-top: 5px solid transparent;
+  padding: 0 10px;
+  border-top: 5px solid transparent;
 }
 
 .navi:hover, .navi.active {
-    border-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .title-container {
-    height: 80px;
-    background-color: #d33523;
+  height: 80px;
+  background-color: #d33523;
 }
 
 .slider-main img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .slider-button {
-    border-radius: 50px;
-    width: 9px;
-    height: 9px;
-    margin: 5px;
-    border: 1px solid #fff;
-    background: transparent;
-    padding: 0;
+  border-radius: 50px;
+  width: 9px;
+  height: 9px;
+  margin: 5px;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 0;
 }
 
 .main-description {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 1.6;
-    width: 1100px;
-    margin: auto;
-    padding-left: 95px;
-    padding-right: 95px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+  width: 1100px;
+  margin: auto;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .social {
-    padding-top: 50px;
-    padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .social a {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .social .social-main {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .social-main:hover, .social-main.active {
-    color: #fff;
+  color: #fff;
 }
 
+/*  ************************************* header END **************************************  */
 
-/*<!-- ************************************* header END ***************************************  -->*/
-
-
-
-/*<!-- ************************************* team container ***************************  -->*/
+/*  ************************************* team container **********************************  */
 
 .team-container {
-    background-color: #57aa68;
-    position: relative;
+  background-color: #57aa68;
+  position: relative;
 }
 
 .about-team {
-    line-height: 1.5;
-    padding-bottom: 40px;
-    opacity: 0.8;
-    font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 40px;
+  opacity: 0.8;
+  font-size: 16px;
 }
 
 .slider-horizontal button:hover, button.active, .slider-horizontal button.active {
-    background: #fff;
-    cursor: pointer;
+  background: #fff;
+  cursor: pointer;
 }
 
 .slider-horizontal {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .member-image {
-    position: relative;
-    height: 290px;
+  position: relative;
+  height: 290px;
 }
 
 .member-overlay {
-    position: absolute;
-    background-color: rgba(86, 170, 104, 0.7);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
+  position: absolute;
+  background-color: rgba(86, 170, 104, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .member-image:hover .member-overlay {
-    visibility: visible;
+  visibility: visible;
 }
 
 .member-block {
-    display: inline-block;
-    font-size: 17px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: inline-block;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .member-comments {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5;
-    padding: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 20px;
 }
 
 .member-heading {
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
 .team-member-name {
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-top: 22px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 22px;
 }
 
 .team-member-position {
-    font-size: 14px;
-    font-weight: 400;
-    opacity: 0.6;
-    line-height: 2;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  line-height: 2;
 }
 
 .member-social-blocks {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 .member-social {
-    display: inline-block;
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
-    /*transition: background .1s;*/
+  display: inline-block;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /*transition: background .1s;*/
 }
 
 .member-social i {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 .member-social:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .member-block-container {
-    padding-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .all-slider-items-colleague {
-   overflow: hidden;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
+
 .slider-item-colleague {
   flex-grow: 1;
   flex-shrink: 0;
@@ -276,116 +267,106 @@ a, a:link, a:visited {
   transition: transform 1s ease-in-out
 }
 
-/*<!-- *********************************** team container END *****************************  -->*/
+/*  ************************************ team container END ******************************  */
 
-
-/*<!-- ************************************* contact form container ***************************  -->*/
+/*  ************************************ contact form container **************************  */
 
 .contact-container {
-    background-image: url("pictures/bg-blue.svg");
-    background-size: cover;
-    position: relative;
-    background-position: center;
+  background-image: url("pictures/bg-blue.svg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
 }
 
 .contact-form {
-    width: 620px;
-    margin: auto;
+  width: 620px;
+  margin: auto;
 }
 
 .form-row, .form-button {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-input[placeholder="Vārds Uzvārds"] {
-    color: #fff;
-    font-weight: bold;
-}
 input[type="text"] {
-    font-size: 13px;
-    color: #fff;
-    line-height: 1.85;
-    padding: 10px;
-    padding-left: 15px;
-    background: #3e4a85;
-    opacity: 0.8;
-    border: 2px;
-    width: 100%;
-    border-radius: 6px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.85;
+  padding: 10px;
+  padding-left: 15px;
+  background: #3e4a85;
+  opacity: 0.8;
+  border: 2px;
+  width: 100%;
+  border-radius: 6px;
 }
 
 textarea[type="textarea"] {
-    font-size: 13px;
-    color: #fff;
-    line-height: 24px;
-    rgba(255, 255, 255, 0.7);
-    height: 232px;
-    padding: 10px;
-    padding-left: 15px;
-    background: #3e4a85;
-    opacity: 0.8;
-    border: 2px;
-    border-radius: 6px;
-    width: 100%;
+  font-size: 13px;
+  color: #fff;
+  line-height: 24px;
+  rgba(255, 255, 255, 0.7);
+  height: 232px;
+  padding: 10px;
+  padding-left: 15px;
+  background: #3e4a85;
+  opacity: 0.8;
+  border: 2px;
+  border-radius: 6px;
+  width: 100%;
 }
 
 .submit {
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
-    line-height: 24px;
-    background: transparent;
-    border: 2px solid white;
-    border-radius: 6px;
-    width: 100%;
-    height: 45px;
-    text-transform: uppercase;
-    transition: background .2s;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  width: 100%;
+  height: 45px;
+  text-transform: uppercase;
+  transition: background .2s;
 }
 
 .submit:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .address {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 70px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
 
+/*  *********************************** contact form container END ***************************  */
 
-/*<!-- *********************************** contact form container END ***************************  -->*/
-
-
-/*<!-- ******************************************* map-container ********************************  -->*/
+/*  ******************************************* map-container ********************************  */
 
 .map-container {
-    background-color: grey;
+  background-color: grey;
 }
 
 .googlemap {
-    margin: 0px;
+  margin: 0px;
 }
 
+/*  ************************************* map-container END **********************************  */
 
-/*<!-- ************************************ map-container END ***********************************  -->*/
-
-
-/*<!-- ******************************************* footer ***************************************  -->*/
+/*  ******************************************* footer ***************************************  */
 
 .footer {
-    background-color: #2e2d6b;
-    color: rgba(255, 255, 255, 0.5);
-    height: 90px;
-    font-size: 13px;
-    font-weight: 300;
-    padding: 25px;
-    0;
+  background-color: #2e2d6b;
+  color: rgba(255, 255, 255, 0.5);
+  height: 90px;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 25px;
+  0;
 }
 
-
-/*<!-- ******************************************* footer END ************************************  -->*/
+/*  ******************************************* footer END ************************************  */

@@ -91,7 +91,7 @@ a, a:link, a:visited {
 }
 
 .main-nav .navi {
-  padding: 0 10px;
+  padding: 0 20px;
   border-top: 5px solid transparent;
 }
 
@@ -288,7 +288,7 @@ a, a:link, a:visited {
 }
 
 input[type="text"] {
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   line-height: 1.85;
   padding: 10px;
@@ -301,7 +301,7 @@ input[type="text"] {
 }
 
 textarea[type="textarea"] {
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   line-height: 24px;
   rgba(255, 255, 255, 0.7);
@@ -313,6 +313,38 @@ textarea[type="textarea"] {
   border: 2px;
   border-radius: 6px;
   width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #b3d9ff;
+  font-size: 15px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b3d9ff;
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #b3d9ff;
+  font-size: 15px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #b3d9ff;
+  font-size: 15px;
 }
 
 .submit {
@@ -362,6 +394,7 @@ textarea[type="textarea"] {
 .footer {
   background-color: #2e2d6b;
   color: rgba(255, 255, 255, 0.5);
+  color: #b3d9ff;
   height: 90px;
   font-size: 13px;
   font-weight: 300;
